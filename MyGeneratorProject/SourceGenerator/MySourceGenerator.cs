@@ -12,7 +12,7 @@ namespace genNamespace
         public void Execute(GeneratorExecutionContext context)
         {
             string generatedCode = @"
-
+		using ApplicationContext;
                 public class Car : Vehicle {
 
                     
